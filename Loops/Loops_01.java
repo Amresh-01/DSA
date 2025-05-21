@@ -1,4 +1,6 @@
+
 // import java.util.Scanner;
+
 
 // public class Loops_01 {
 //     public static void main(String[] args) {
@@ -16,35 +18,35 @@
 //     }
 //   }
 
-    // public static void main(String[] args) {
-    //     System.out.println("Enter the income \n");
-    //     Scanner sc =  new Scanner(System.in);
-    //     int income = sc.nextInt();
-    //     int tax;
+//     public static void main(String[] args) {
+//         System.out.println("Enter the income \n");
+//         Scanner sc =  new Scanner(System.in);
+//         int income = sc.nextInt();
+//         int tax;
 
-    //     if (income<500000){
-    //         tax = 0;
-    //         System.out.println("You will pay including the tax is " + income);
+//         if (income<500000){
+//             tax = 0;
+//             System.out.println("You will pay including the tax is " + income);
 
-    //     }
+//         }
 
-    //     else if(income >=500000 && income <= 1000000) {
-    //         tax = (int) (income * 0.2);
-    //         income = income + tax;
-    //         System.out.println("You will pay including the tax is " + income);
+//         else if(income >=500000 && income <= 1000000) {
+//             tax = (int) (income * 0.2);
+//             income = income + tax;
+//             System.out.println("You will pay including the tax is " + income);
 
-    //     }
+//         }
 
-    //     else{
-    //         tax = (int) (income *  0.3);
-    //         income = income + tax;
-    //         System.out.println("You will pay including the tax is " + income);
+//         else{
+//             tax = (int) (income *  0.3);
+//             income = income + tax;
+//             System.out.println("You will pay including the tax is " + income);
 
 
-    //     }
-    //     System.out.println("Your tax is : " + tax);
-    //     }
-    // }
+//         }
+//         System.out.println("Your tax is : " + tax);
+//         }
+//     }
 
 
 
@@ -66,6 +68,3 @@
 
 //     } 
 // }
-
-
-

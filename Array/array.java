@@ -41,46 +41,6 @@
 //         System.out.println(" index for key is : " + binarysearch(numbers, key));
 //     }
 // }
-//                                          ##  Reverse in array  ##
-// public class array{
-//     public static int binarysearch(int numbers[], int key){
-//         int start = 0 , end = numbers.length-1;
-//         while( ){
-//             int mid = (start + end ) / 2;
-//             if (numbers [mid] == key){
-//                 return mid ;
-//             }
-//             if (numbers [mid] <key){
-//                 start = mid +1;
-//             }
-//            else{
-//            end = mid - 1;
-//                 return 1 ;
-//             }
-//         }
-//         return -1;
-//     }
-//     public static void main (String args[]){
-//         int numbers[] = {1,2,3,4,5,6,7,8,9,10};
-//         int key = 6;
-//         // int index = linearsearch
-//     }
-// }
-//                                      ## Reverse of an Array ##
-// public class array{
-//     public static void swap(int[] marks, int i, int j){
-//         int temp = marks[i];
-//         marks[i]=marks[j];
-//         marks[j]=temp;
-//         }
-//     public static void main(String[] args) {
-//         int marks[] ={2,45,678,7};
-//         swap(marks, 0 ,3);
-//     for(int i=0;i<marks.length;i++){
-//         System.out.println(marks[i]);
-//         }
-// }
-// }
 //                             ## Span of an array (Difference b\w Maximum no. and Minimum no.) ##
 // import java.util.*;
 // public class array{
@@ -222,26 +182,7 @@
 //         printSpiral(arr);
 //         }
 //     }
-//                                        Sum of array  
-// import java.util.Scanner;
-// public class array {
-//     public static void main(String[] args) {
-//         Scanner scanner = new Scanner(System.in);
-//         System.out.print("Enter the number of elements: ");
-//         int n = scanner.nextInt();
-//         int[] arr = new int[n];
-//         int sum = 0;
-//         System.out.println("Enter " + n + " elements:");
-//         for (int i = 0; i < n; i++) {
-//             arr[i] = scanner.nextInt();
-//             sum += arr[i];
-//         }
-//         double average = (double) sum / n;
-//         System.out.println("Sum: " + sum);
-//         System.out.println("Average: " + average);
-//     }
-// }
-//                          Maximum and Minimum Array
+//                                      ## Maximum and Minimum Array ##
 // import java.util.*;
 // public class array {
 //     public static void main(String[] args) {
@@ -266,38 +207,77 @@
 //         System.out.println("Maximum number is: " + maxArr);
 //     }
 // }
-//                                  Given Array is Sorted or Not  
-import java.util.Scanner;
+//                                   ## Given Array is Sorted or Not ##
+// import java.util.Scanner;
+// public class array {
+//     public static void main(String[] args) {
+//         Scanner sc = new Scanner(System.in);
+//         int n = sc.nextInt();
+//         int[] arr = new int[n];
+//         for (int i = 0; i < n; i++) {
+//             arr[i] = sc.nextInt();
+//         }
+//         boolean isIncrease = true;
+//         boolean isDecrease = true;
+//         for (int i = 0; i < n - 1; i++) {
+//             if (arr[i] < arr[i + 1]) {
+//                 isDecrease = false;  // If any pair is increasing, it's not decreasing
+//             }
+//             if (arr[i] > arr[i + 1]) {
+//                 isIncrease = false;  // If any pair is decreasing, it's not increasing
+//             }
+//         }
+//         if (isDecrease) {
+//             System.out.println("Array is sorted in Decreasing Order");
+//         } else if (isIncrease) {
+//             System.out.println("Array is sorted in Increasing Order");
+//         } else {
+//             System.out.println("Array is not sorted");
+//         }
+//     }
+// }
+//                                       ## Reverse in an Array ## 
+// import java.util.*;
+// public class array {
+//     public static void main(String[] args) {
+//         Scanner scanner = new Scanner(System.in);
+//         System.out.print("Enter the size of the array: ");
+//         int size = scanner.nextInt();
+//         int[] arr = new int[size];
+//         System.out.println("Enter the elements of the array:");
+//         for (int i = 0; i < size; i++) {
+//             arr[i] = scanner.nextInt();
+//         }
+//         reverseArray(arr);
+//         System.out.println("Reversed array: " + Arrays.toString(arr));
+//     }
+//     public static void reverseArray(int[] arr) {
+//         int left = 0, right = arr.length - 1;
+//         while (left < right) {
+//             int temp = arr[left];
+//             arr[left] = arr[right];
+//             arr[right] = temp;
+//             left++;
+//             right--;
+//         }
+//     }
+// }
+//                                   Searching Elemnt in 2-D Array
+import java.util.*;
 
 public class array {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int n = sc.nextInt();
-        int[] arr = new int[n];
+        int row = sc.nextInt();
+        int col = sc.nextInt();
 
-        for (int i = 0; i < n; i++) {
-            arr[i] = sc.nextInt();
-        }
+        int[][] arr = new (row)(col
 
-        boolean isIncrease = true;
-        boolean isDecrease = true;
 
-        for (int i = 0; i < n - 1; i++) {
-            if (arr[i] < arr[i + 1]) {
-                isDecrease = false;  // If any pair is increasing, it's not decreasing
-            }
-            if (arr[i] > arr[i + 1]) {
-                isIncrease = false;  // If any pair is decreasing, it's not increasing
-            }
-        }
+    );
 
-        if (isDecrease) {
-            System.out.println("Array is sorted in Decreasing Order");
-        } else if (isIncrease) {
-            System.out.println("Array is sorted in Increasing Order");
-        } else {
-            System.out.println("Array is not sorted");
-        }
+
+    );
     }
 }

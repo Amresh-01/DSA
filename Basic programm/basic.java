@@ -179,25 +179,25 @@
 // }
 
 
-import java.util.*;
+// import java.util.*;
 
-public class basic{
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        int num = sc.nextInt(); 
-        int st = 1;
-        int sp = num-1;
-        for(int i=1; i<=num; i++){
-            for(int j=1; j<=sp; j++){
-            System.out.print(" ");
-            }
-            for(int j=1; j<=st; j++){
-            System.out.print("*");
-            }
-        System.out.println();
-        st++;
-        sp--;
-        }
+// public class basic{
+//     public static void main(String[] args) {
+//         Scanner sc = new Scanner(System.in);
+//         int num = sc.nextInt(); 
+//         int st = 1;
+//         int sp = num-1;
+//         for(int i=1; i<=num; i++){
+//             for(int j=1; j<=sp; j++){
+//             System.out.print(" ");
+//             }
+//             for(int j=1; j<=st; j++){
+//             System.out.print("*");
+//             }
+//         System.out.println();
+//         st++;
+//         sp--;
+//         }
        
-    }
-}
+//     }
+// }

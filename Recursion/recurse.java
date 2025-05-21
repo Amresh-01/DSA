@@ -1,11 +1,5 @@
 
-
-
-
-
 //                                      Table 
-
-
 // import java.util.*;
 // public class recurse{
 //     public static void main(String[] args) {
@@ -19,12 +13,8 @@
 //         }  
 //      }
 // } 
-
 //                                  Sum of all Odd no. 
-
-
 // import java.util.*;
-
 // public class recurse{
 //     public static void main(String[] args){ 
 //         Scanner sc = new Scanner(System.in);
@@ -38,62 +28,37 @@
 //         System.out.println(sum);
 //     }
 // }
+//                                         LCM of two no.
+ 
+// import java.util.*;
 
+// public class recurse {
 
+//     public static void main(String[] args) {
 
-
-        //                                         LCM of two no. 
-
-
-// import java .util.*;
-// public class recurse{
-//     public static void main(String[] args){
-        
 //         Scanner sc = new Scanner(System.in);
 //         System.out.println("Enter the first no. : ");
 //         int n1 = sc.nextInt();
 //         System.out.println("Enter the sceond no. : ");
 //         int n2 = sc.nextInt();
-//         int lcm = lcm( n1 , n2 );
+//         int lcm = lcm(n1, n2);
 //         System.out.println("LCM of two no. is : " + lcm);
-//     }       
+//     }
 
-//     public static int lcm(int n1 , int n2) {
+//     public static int lcm(int n1, int n2) {
 //         int i = 1;
 //         while (true) {
 //             int factor = n1 * i;
-//             if(factor % n2==0){
+//             if (factor % n2 == 0) {
 //                 return factor;
 //             }
 //             i++;
 //         }
 //     }
-// }   
-
-
-                                    //   Greatest Common factor  - Incomplete 
-
-// import java.util.*;
-
-// public class recurse{
-//     public static void main(String[] args) {
-//         Scanner input = new Scanner(System.in);
-//         System.out.println("Enter the first no. : ");
-//         int n1 = input.nextInt();
-//         System.out.println("Enter the second no. : ");
-//         int n2 = input.nextInt();
-//         int gcd = gcd( n1 , n2);
-//         System.out.println("GCD of the no. is : " + gcd);
-//     }
-//     public static int gcd(int n1 , int n2) {
-        
-//     }
 // }
 
 //                              Given No. is prime or Not 
-
 // import java.util.*;
-
 // public class recurse{
 //     public static void main(String[] args){
 //         try(Scanner sc = new Scanner(System.in)){
@@ -117,30 +82,22 @@
 // }
 //         }
 // }
-
 //                                              Anagram String
-
 // import java.util.*;
-
 // public class recurse{
-
 //         public static void main(String args[]){
 //                 Scanner sc = new Scanner(System.in);
 //                 String str1 = sc.nextLine();
 //                 String str2 = sc.nextLine();
-                
 //                 if(str1.length() != str2.length()){
 //                         System.out.print(false);
 //                 }
 //                 else{
-
 //                        char str1char[] = str1.toCharArray();
 //                        char str2char[] = str2.toCharArray();
 //                        Arrays.sort(str1char); 
 //                        Arrays.sort(str2char);
-
 //                        int flag = 0;
-
 //                 for (int i = 0; i < str1.length(); i++) {
 //                     if (str1char[i] != str2char[i]) {
 //                         flag = 1;
@@ -153,54 +110,36 @@
 //                 else{
 //                         System.out.println(false);
 //                 }
-
 //         }
 // }
 // }
-
-//                                                Recursion [ Repeating elements in an array]
-
-
+//                                        Recursion [ Repeating elements in an array]
 // import java.util.*;
-
 // public class recurse{
-        
 //         public static void main(String args[]){
 //                 Scanner sc = new Scanner(System.in);
 //                 int n = sc.nextInt();
-
 //                 System.out.println("Enter the Array : \n ");
 //                 int[] arr = new int[n];
 //                 for (int i = 0; i < n; i++) {
 //                         arr[i] = sc.nextInt(); 
 //                     }
-
 //                 int search = sc.nextInt();
-                
 //                 for(int i= 0 ; i<arr.length; i++){
 //                        if(arr[i]==search) {
 //                         System.out.println(i);
 //                        }
 //                 }
-
 //         }
 // }
-
-
 //                                         2019 (Number) in Word
-
-
 // import java.util.*;
-
 // public class recurse{
-
 //         static String digits[] = {"zero","one","two","three","four","five","six","seven","eight","nine","ten"};
-                  
 //         public static void main(String[] args) {
 //                 printDigits(2019);
 //                 System.out.println();
 //         }
-
 //         public static void printDigits(int number) {
 //                 if (number==0){
 //                         return;
@@ -209,43 +148,30 @@
 //                         printDigits(number / 10);
 //                         System.out.print(digits[lastDigit] + " ");
 //                 }
-        
-            
 //     }
-
-
-
 //                                            Friends Pairing Problem
-
 // public class recurse {
 //     public static void main(String[] args) {
 //         int n = 4;
 //         int count = countPairing(n);
 //         System.out.println("Number of ways to pair " + n + " friends is: " + count);
 //     }
-
 //     public static int countPairing(int n) {
 //         if (n == 1 || n == 2) {
 //             return n;
 //         }
 //        int pairing_alone = countPairing(n-1);
 //        int pairing_pair = (n-1) * countPairing(n-2);
-
 //        int total_ways_pairing = pairing_pair + pairing_alone ;
 //        return  total_ways_pairing;
 //     }
 // }
-
-
-//                                                   Tower of Hanoi 
-
+//                                             Tower of Hanoi 
 // public class recurse{
-
 //         public static void main(String[] args) {
 //                 int n = 3; 
 //                 solveHanoi(n, 'A', 'C', 'B'); 
 //             }
-        
 //         public static void solveHanoi(int n, char source, char destination , char helper){
 //                 if(n==1){
 //                         System.out.println("Move disk 1 from " + source + " to " + destination);
@@ -253,17 +179,8 @@
 //                 }
 //                 // Move n-1 disk from rod A to rod B 
 //                 solveHanoi(n-1, source , helper , destination);
-
 //                 System.out.println("Move disk " + n + " from rod " + source + " to " + destination );
-
 //                 solveHanoi(n-1, helper , destination, source);
 //         }
 // }
-
-
-
-
-
-
-
 
