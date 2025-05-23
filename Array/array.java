@@ -1,6 +1,59 @@
 
-// import java.util.Arrays;
+//                                             ## Sum of Two Arrays ##
+// 
+// import java.util.*;
+// public class array{
+//     public static void main (String[] args){
+//                 Scanner sc = new Scanner(System.in);
+//                 int n1 = sc.nextInt();
+//                 int [] a1 = new int[n1];
+//                 for (int i = 0; i < a1.length; i++) {
+//                     a1[i]= sc.nextInt();
+//                 }
+//                 int n2 = sc.nextInt();
+//                 int [] a2 = new int [n2];
+//                 for (int i = 0; i < a2.length; i++) {
+//                         a2[i]= sc.nextInt(); 
+//                 }
+//                 int[] sum = new int[n1>n2 ? n1:n2];
+//                 int i = a1.length - 1;
+//                 int j = a2.length - 1;
+//                 int k = sum.length - 1;         
+//     }
+//  }
+// 
+//                                       ## Reverse in an Array ##
+//  
+// import java.util.*;
+// public class array {
+//     public static void main(String[] args) {
+//         Scanner scanner = new Scanner(System.in);
+//         System.out.print("Enter the size of the array: ");
+//         int size = scanner.nextInt();
+//         int[] arr = new int[size];
+//         System.out.println("Enter the elements of the array:");
+//         for (int i = 0; i < size; i++) {
+//             arr[i] = scanner.nextInt();
+//         }
+//         reverseArray(arr);
+//         System.out.println("Reversed array: " + Arrays.toString(arr));
+//     }
+//     public static void reverseArray(int[] arr) {
+//         int left = 0, right = arr.length - 1;
+//         while (left < right) {
+//             int temp = arr[left];
+//             arr[left] = arr[right];
+//             arr[right] = temp;
+//             left++;
+//             right--;
+//         }
+//     }
+// }
+// 
+// 
 //                                             ## Through linear search ##
+// 
+// import java.util.*;
 // public class array{
 //     public static int getlargest(int numbers[]){
 //                   int largest = Integer.MIN_VALUE;            //for  MAX_VALUE it initialise to + infinity 
@@ -16,7 +69,9 @@
 //         System.out.println("the largest no. is :" + getlargest(numbers));
 //     }
 // }
+// 
 //                                          ## Through binary search ##
+// 
 // import java.util.Arrays;
 // public class array{
 //     public static int binarysearch(int numbers[],int key){
@@ -41,7 +96,11 @@
 //         System.out.println(" index for key is : " + binarysearch(numbers, key));
 //     }
 // }
-//                             ## Span of an array (Difference b\w Maximum no. and Minimum no.) ##
+// 
+// 
+//                          ## Span of an array (Difference b\w Maximum no. and Minimum no.) ##
+// 
+// 
 // import java.util.*;
 // public class array{
 //     public static void main(String[] args) {
@@ -65,7 +124,9 @@
 //                     System.out.println("span :" +span);
 //     }
 // }
+// 
 //                                      ##  Bar chart in Array ##
+// 
 // import java.util.*;
 // public class array{
 //     public static void main (String[] args){
@@ -94,28 +155,10 @@
 //                 }
 //             }
 //         }
-//                                             ## Sum of Two Arrays ##
-// import java.util.*;
-// public class array{
-//     public static void main (String[] args){
-//                 Scanner sc = new Scanner(System.in);
-//                 int n1 = sc.nextInt();
-//                 int [] a1 = new int[n1];
-//                 for (int i = 0; i < a1.length; i++) {
-//                     a1[i]= sc.nextInt();
-//                 }
-//                 int n2 = sc.nextInt();
-//                 int [] a2 = new int [n2];
-//                 for (int i = 0; i < a2.length; i++) {
-//                         a2[i]= sc.nextInt(); 
-//                 }
-//                 int[] sum = new int[n1>n2 ? n1:n2];
-//                 int i = a1.length - 1;
-//                 int j = a2.length - 1;
-//                 int k = sum.length - 1;         
-//     }
-//  }
-//                                          Rain problem  
+// 
+
+//                                        ##  Rain problem  ##
+// 
 // import java.util.*;
 // public class array{
 //     public static boolean findMonotonic(int[] arr,int n){
@@ -134,7 +177,9 @@
 //             return true;
 //     }
 // }
-//                                     Spiral Array
+// 
+//                                   ##  Spiral Array  ##
+// 
 // public class array{
 //     public static void printSpiral(int [][] arr) {
 //             int n = arr.length;
@@ -182,7 +227,9 @@
 //         printSpiral(arr);
 //         }
 //     }
+// 
 //                                      ## Maximum and Minimum Array ##
+// 
 // import java.util.*;
 // public class array {
 //     public static void main(String[] args) {
@@ -207,7 +254,10 @@
 //         System.out.println("Maximum number is: " + maxArr);
 //     }
 // }
+// 
+// 
 //                                   ## Given Array is Sorted or Not ##
+// 
 // import java.util.Scanner;
 // public class array {
 //     public static void main(String[] args) {
@@ -236,48 +286,55 @@
 //         }
 //     }
 // }
-//                                       ## Reverse in an Array ## 
+// 
+
+//                                   Searching Elemnt in 2-D Array
+// 
 // import java.util.*;
+
 // public class array {
+
 //     public static void main(String[] args) {
-//         Scanner scanner = new Scanner(System.in);
-//         System.out.print("Enter the size of the array: ");
-//         int size = scanner.nextInt();
-//         int[] arr = new int[size];
-//         System.out.println("Enter the elements of the array:");
-//         for (int i = 0; i < size; i++) {
-//             arr[i] = scanner.nextInt();
+//         Scanner sc = new Scanner(System.in);
+
+//         System.out.println("Please Enter the Row : ");
+//         int row = sc.nextInt();
+//         System.out.println("Please Enter the Column : ");
+//         int col = sc.nextInt();
+
+//         if (row <= 0 || col <= 0) {
+//             System.out.println("Row and Column values must be positive integers.");
+//             return;
 //         }
-//         reverseArray(arr);
-//         System.out.println("Reversed array: " + Arrays.toString(arr));
+
+//         int[][] arr = new int[row][col];
+
+//         for (int i = 0; i < row; i++) {
+//             for (int j = 0; j < col; j++) {
+//                 System.out.println("Enter the value at row " + (i + 1) + ", column " + (j + 1) + " :");
+//                 arr[i][j] = sc.nextInt();
+//             }
+//         }
+
+//         System.out.println("Enter the number you want to search for: ");
+//         int num = sc.nextInt();
+
+//         boolean isFound = search(arr, num);
+//         if (isFound) {
+//             System.out.println("Your number was found.");
+//         } else {
+//             System.out.println("Your number was not found.");
+//         }
 //     }
-//     public static void reverseArray(int[] arr) {
-//         int left = 0, right = arr.length - 1;
-//         while (left < right) {
-//             int temp = arr[left];
-//             arr[left] = arr[right];
-//             arr[right] = temp;
-//             left++;
-//             right--;
+
+//     public static boolean search(int[][] arr, int num) {
+//         for (int i = 0; i < arr.length; i++) {
+//             for (int j = 0; j < arr[i].length; j++) {
+//                 if (arr[i][j] == num) {
+//                     return true;
+//                 }
+//             }
 //         }
+//         return false;
 //     }
 // }
-//                                   Searching Elemnt in 2-D Array
-import java.util.*;
-
-public class array {
-
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        int row = sc.nextInt();
-        int col = sc.nextInt();
-
-        int[][] arr = new (row)(col
-
-
-    );
-
-
-    );
-    }
-}
