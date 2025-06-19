@@ -1,5 +1,5 @@
 
-//                                      Table 
+//                                          Table 
 // import java.util.*;
 // public class recurse{
 //     public static void main(String[] args) {
@@ -28,7 +28,7 @@
 //         System.out.println(sum);
 //     }
 // }
-//                                         LCM of two no.
+//                                          LCM of two no.
  
 // import java.util.*;
 
