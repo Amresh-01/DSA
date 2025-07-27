@@ -1,7 +1,5 @@
 
-import java.util.*;
-
-public class Ceiling {
+public class ceiling {
 
     public static void main(String[] args) {
         int[] arr = {2, 3, 5, 9, 14, 16, 18};
@@ -40,25 +38,25 @@ public class Ceiling {
 
 //                                       Leetcode twisted Problem - 744
 //                      https://leetcode.com/problems/find-smallest-letter-greater-than-target/
-class Solution {
+// class Solution {
 
-    public char nextGreatestLetter(char[] letters, char target) {
-        int start = 0;
-        int end = letters.length - 1;
+//     public char nextGreatestLetter(char[] letters, char target) {
+//         int start = 0;
+//         int end = letters.length - 1;
 
-        while (start <= end) {
-            int mid = start + (end - start) / 2;
+//         while (start <= end) {
+//             int mid = start + (end - start) / 2;
 
-            if (target < letters[mid]) {
-                end = mid - 1;
-            } else {
-                start = mid + 1;
-            }
-        }
-        return letters[start % letters.length];
-        
-        //   Input: letters = ["x","x","y","y"], target = "z"
-        //    Output: "x"
-        // Agar start ka index last wale par aa jae tab pehla wala index print ho jae .
-    }
-}
+//             if (target < letters[mid]) {
+//                 end = mid - 1;
+//             } else {
+//                 start = mid + 1;
+//             }
+//         }
+//         return letters[start % letters.length];
+
+//         //   Input: letters = ["x","x","y","y"], target = "z"
+//         //    Output: "x"
+//         // Agar start ka index last wale par aa jae tab pehla wala index print ho jae .
+//     }
+// }

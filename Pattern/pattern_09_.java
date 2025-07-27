@@ -11,7 +11,7 @@
 
 
 import java.util.Scanner;
-public class pattern__09_{
+public class pattern_09_{
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();

@@ -14,7 +14,7 @@
 //                                * * * * *
 //                               * * * * * * 
 //                              * * * * * * * 
-//
+ 
 import java.util.Scanner;
 
 public class pattern_10_{ 

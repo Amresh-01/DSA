@@ -3,7 +3,7 @@
 import java.util.*;
 import java.util.*;
 
-public class Anagram_String_{
+public class Anagram_string_{
 
     public static void main(String args[]) {
         Scanner sc = new Scanner(System.in);
