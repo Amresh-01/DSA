@@ -1,7 +1,7 @@
 
 import java.util.*;
 
-public class Linear_search {
+public class Linear_Search {
 
     public static int getlargest(int numbers[]) {
         int largest = Integer.MIN_VALUE;            //for  MAX_VALUE it initialise to + infinity 
