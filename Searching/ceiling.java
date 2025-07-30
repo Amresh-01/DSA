@@ -19,8 +19,11 @@ public class ceiling {
         int end = arr.length - 1;
 
         while (start <= end) {
+            
             // find the middle element
-//            int mid = (start + end) / 2; // might be possible that (start + end) exceeds the range of int in java
+//            int mid = (start + end) / 2; 
+//          might be possible that (start + end) exceeds the range of int in java
+
             int mid = start + (end - start) / 2;
 
             if (target < arr[mid]) {
@@ -39,14 +42,11 @@ public class ceiling {
 //                                       Leetcode twisted Problem - 744
 //                      https://leetcode.com/problems/find-smallest-letter-greater-than-target/
 // class Solution {
-
 //     public char nextGreatestLetter(char[] letters, char target) {
 //         int start = 0;
 //         int end = letters.length - 1;
-
 //         while (start <= end) {
 //             int mid = start + (end - start) / 2;
-
 //             if (target < letters[mid]) {
 //                 end = mid - 1;
 //             } else {
@@ -54,7 +54,6 @@ public class ceiling {
 //             }
 //         }
 //         return letters[start % letters.length];
-
 //         //   Input: letters = ["x","x","y","y"], target = "z"
 //         //    Output: "x"
 //         // Agar start ka index last wale par aa jae tab pehla wala index print ho jae .
