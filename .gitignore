@@ -1,0 +1,26 @@
+# Ignore Java class files
+*.class
+
+*.class
+# Package and build directories
+bin/
+out/
+target/
+build/
+
+# IDE-specific directories
+.vscode/
+.idea/
+*.iml
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Logs and temp files
+*.log
+*.tmp
+
+# Other version control leftovers
+*.swp
+*.bak

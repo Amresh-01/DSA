@@ -1,7 +1,5 @@
 //                                         2019 (Number) in Word
 
-import java.util.*;
-
 public class Number_in_Words_ {
 
     static String digits[] = {"zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine", "ten"};
