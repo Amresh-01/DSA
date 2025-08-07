@@ -22,9 +22,6 @@ class BankAcccount {
     }
 }
 
-// Here Pen is constructor
-
-
 class Pen {
 
     String color;
@@ -38,15 +35,3 @@ class Pen {
         color = newTip;
     }
 }
-
-
-// OOPs has Four pillar 
-
-// 1. ENCAPSULATION  :- It is defined as the wrapping up of data methods under a single unit. It also Implements data Hiding.
-//     Data - Properties    Methods - function
-
-// 2. Inheritance :- 
-
-// 3. Abstraction :- 
-
-// 4. Polymorphosism :- 

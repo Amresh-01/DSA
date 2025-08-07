@@ -52,6 +52,3 @@ class Deer
         System.out.println("Eat grass");
     }
 }
-
-
-// Iska Answer eat grass print hoga.

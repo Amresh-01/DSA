@@ -1,4 +1,3 @@
-package Inheritance;
 
 public class Inheritence {
 
@@ -52,48 +51,46 @@ class Fish extends Animal {
 // 2. Multi Level Inheritance :-  Single Base class and Derived class
 //                               Example :- Animal --->  Mammal  ---> Dog 
 // 3. Heirarchial Inheritance :- 
+Example
 
-// Example  :- 
+:- 
 
-// public class Inheritence {
+public class Inheritence {
 
-//     public static void main(String args[]) {
-//         Fish shark = new Fish();
-//         shark.eat();
+    public static void main(String args[]) {
+        Fish shark = new Fish();
+        shark.eat();
 
-//         Dog Tommy = new Dog();
-//         Tommy.legs = 4;
-//         System.out.println(Tommy.legs);
-//     }
-// }
+        Dog Tommy = new Dog();
+        Tommy.legs = 4;
+        System.out.println(Tommy.legs);
+    }
+}
 
-// // Base class
-// class Animal {
+// Base class
+class Animal {
 
-//     String color;
+    String color;
 
-//     void eat() {
-//         System.out.println("Eats");
-//     }
+    void eat() {
+        System.out.println("Eats");
+    }
 
-//     void breathe() {
-//         System.out.println("Breathes");
-//     }
-// }
+    void breathe() {
+        System.out.println("Breathes");
+    }
+}
 
-// class Mammal extends Animal {
+class Mammal extends Animal {
 
-//     void walk() {
-//         System.out.println("Walks");
-//     }
-// }
+    void walk() {
+        System.out.println("Walks");
+    }
+}
 
-// class Fish extends Animal {
+class Fish extends Animal {
 
-//     void swim() {
-//         System.out.println("Swim");
-//     }
-// }
-
-
-// 4. Hybrid Inheritance :- 
+    void swim() {
+        System.out.println("Swim");
+    }
+}
