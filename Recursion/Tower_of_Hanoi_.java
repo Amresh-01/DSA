@@ -1,6 +1,4 @@
 
-import java.util.*;
-
 public class Tower_of_Hanoi_ {
 
     public static void main(String[] args) {

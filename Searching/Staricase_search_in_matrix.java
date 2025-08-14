@@ -24,6 +24,3 @@ public class Staricase_search_in_matrix {
         staircaseSearch(matrix, key);
     }
 }
-
-
-

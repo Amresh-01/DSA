@@ -15,8 +15,6 @@
 //                                         *        *
 // 
 // 
-import java.util.*;
-
 public class pattern_07_ {
 
     public static void Butterfly(int n) {
