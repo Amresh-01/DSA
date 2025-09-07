@@ -315,28 +315,26 @@
 //     }
 // }
 
+// import java.util.*;
 
+// public class array {
 
-import java.util.*;
+//     public static void main(String[] args) {
+//         Scanner sc = new Scanner(System.in);
+//         int row = sc.nextInt();
+//         int col = sc.nextInt();
+//         int[][] numArray = new int[row][col];
 
-public class array{
-
-    public static void main (String[] args){
-        Scanner sc = new Scanner(System.in);
-        int row = sc.nextInt();
-        int col = sc.nextInt();
-        int [][] numArray = new int[row][col];
-
-        int i=0;
-        while(i<row){
-            int j=0;
-            while(j<col){
-                System.out.println("Please Enter elements row:" + (i+1) + ", column : " + (j+1) + " :");
-                numArray[i][j] = sc.nextInt();
-                j++;
-            }
-            i++;
-        }
-        return numArray;
-    }
-}
+//         int i = 0;
+//         while (i < row) {
+//             int j = 0;
+//             while (j < col) {
+//                 System.out.println("Please Enter elements row:" + (i + 1) + ", column : " + (j + 1) + " :");
+//                 numArray[i][j] = sc.nextInt();
+//                 j++;
+//             }
+//             i++;
+//         }
+//         return numArray;
+//     }
+// }

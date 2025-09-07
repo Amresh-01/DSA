@@ -9,7 +9,7 @@
 //                                                0101
 //                                                10101
 // 
-public class pattern_06_{
+public class pattern_06_ {
 
     public static void Triangle(int n) {
         for (int i = 0; i < n; i++) {
