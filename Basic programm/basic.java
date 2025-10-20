@@ -47,28 +47,29 @@
 // }
 // }
 
-// Table
+// LCM
 
 // import java.util.*;
 
-// public class basic{
-
+// public class basic {
 // public static void main(String[] args) {
+// Scanner input = new Scanner(System.in);
 
-// Scanner sc = new Scanner(System.in);
-// System.out.println("Enter the first no. : ");
-// int n1 = sc.nextInt();
-// System.out.println("Enter the sceond no. : ");
-// int n2 = sc.nextInt();
-// int lcm = lcm( n1 , n2 );
-// System.out.println("LCM of two no. is : " + lcm);
+// System.out.println("Enter the First No.: \n");
+// int num1 = input.nextInt();
+
+// System.out.println("Enter the Second No.: \n");
+// int num2 = input.nextInt();
+
+// int lcm = lcm(num1, num2);
+// System.out.println("The LCM of " + num1 + "and " + num2 + "is" + lcm);
 // }
 
-// public static int lcm(int n1 , int n2){
+// public static int lcm(int num1, int num2) {
 // int i = 1;
-// while(true){
-// int factor = n1 * i;
-// if (factor%n2 == 0) {
+// while (true) {
+// int factor = num1 * i;
+// if (factor % num2 == 0) {
 // return factor;
 // }
 // i++;
@@ -185,4 +186,3 @@
 
 // }
 // }
-
